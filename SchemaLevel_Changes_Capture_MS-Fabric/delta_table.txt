@@ -1,0 +1,12 @@
+array_zip
+array_intersect
+array_except
+array_sort
+
+
+",".join(cols_lst)
+OR
+" AND ".join(list(map(lambda X:  ("Target." + X + "Source." + X),  )))
+
+
+DELTA TABLE: combination of data files in the form of Parquet + Transaction log files in JSON & Parquet
